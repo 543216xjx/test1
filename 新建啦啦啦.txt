@@ -1,0 +1,38 @@
+cmd 下 git --version   查看git版本
+
+git touch 文件名  创建文件
+git config --list 具体你的git的信息
+
+git config --global user.name "~~~~"
+git config --global user.email "~~~~"
+
+cd 文件   进去一个文件
+ls -la  看都有什么文件
+git init 目录名 
+git clone url    直接往下烤文件
+
+git status   看状态
+
+git add .  把所有文件放在 站存取
+
+git commit -m “描述”    最终保存
+git  log  看历史  git log --oneline  只看第一行 --all
+
+git reset  删除缓冲区
+
+git checkout “身份”
+git checkout  -   回到之前 的版本
+ 
+git tag -a v1 -m"下午的时候啊"  添加在当前的版本下  +省份账号
+
+git tag  看看有哪些版本
+git show v1 具体看看 v1标签的内容
+git checkout v1  直接去指定版本
+
+git branch rich  创建rich分支
+
+git remote add rest（远程名） https://github.com/qq2418916003/test.git 远程网址
+git remote  看看有哪些仓库
+git remote -v  看具体信息
+git push -u 远程名 分支名
+git pull   更新
